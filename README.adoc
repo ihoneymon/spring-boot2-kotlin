@@ -1,0 +1,24 @@
+= 코틀린으로 구현하는 스프링 웹 애플리케이션
+honeymon, ihoneymon@gmail.com
+v0.0.1, 2018-11-10
+
+== 설치
+[source,console]
+----
+$ git clone https://github.com/ihoneymon/spring-boot2-kotlin
+$ cd spring-boot2-kotlin
+$ ./gradlew bootRun
+----
+
+== 동작확인
+
+=== httpie
+----
+----
+
+=== cURL
+[source,console]
+----
+----
+
+== 참고문헌
