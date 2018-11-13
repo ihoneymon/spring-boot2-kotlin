@@ -2,6 +2,8 @@
 honeymon, ihoneymon@gmail.com
 v0.0.1, 2018-11-10
 
+자바로 작성한 간단한 스프링 애플리케이션을 코틀린으로 변환하면서 코틀린을 익히고 코틀린이 가지고 있는 강점을 체험한다. 이 과정에서 그레이들 빌드스크립트 DSL을 그루비에서 코틀린으로 변경한다. 이를 통해 빌드스크립트를 비롯하여 프로그래밍 언어까지 코틀린으로 아우를 수 있는 기초를 갖출 수 있기 바란다.
+
 == 설치
 [source,console]
 ----
@@ -22,3 +24,5 @@ $ ./gradlew bootRun
 ----
 
 == 참고문헌
+* link:https://kotlinlang.org/[Kotlin Programming Language]
+* link:https://academy.realm.io/kr/posts/kotlin-does-java-droidcon-boston-2017-gonda/[Kotlin과 Java 전격 비교 - Realm]
