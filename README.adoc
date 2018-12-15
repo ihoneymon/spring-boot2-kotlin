@@ -18,16 +18,23 @@ $ ./gradlew bootRun
 ----
 
 == 동작확인
+API 동작을 확인하는 방법은 link:https://www.gnu.org/software/wget/manual/wget.html[`wget`] 혹은 link:https://curl.haxx.se/[cUrl], link:https://httpie.org/[httpie] 를 이용하여 확이니 가능하다. 혹은 GUI 툴로 link:https://www.getpostman.com/[Post man] 등을 사용할 수 있으며 인텔리제이 사용자는 link:https://jojoldu.tistory.com/266[`.http`] 파일을 이용한 클라이언트 호출 테스트가 가능하다.
 
 === httpie
+[source,bash]
 ----
+$ http GET 'http://localhost:8080/greeting' \
+    'Content-Type:application/json;charset=UTF-8'
 ----
 
 === cURL
-[source,console]
+[source,bash]
 ----
+$ curl 'http://localhost:8080/greeting' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'
 ----
 
 == 참고문헌
 * link:https://kotlinlang.org/[Kotlin Programming Language]
 * link:https://academy.realm.io/kr/posts/kotlin-does-java-droidcon-boston-2017-gonda/[Kotlin과 Java 전격 비교 - Realm]
+* link:https://docs.gradle.org/5.0-rc-1/userguide/kotlin_dsl.html[Gradle Kotlin DSL]

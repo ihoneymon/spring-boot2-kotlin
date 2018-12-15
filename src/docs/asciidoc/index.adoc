@@ -1,3 +1,6 @@
 = spring-boot2-kotlin
 honeymon, ihoneymon@gmail.com
 v0.0.1, 2018-11-10
+
+API 를 만드는 작업을 하게 되면 API 이용설명서를 작성하게 된다. 스프링 애플리케이션에서는
+link:https://spring.io/projects/spring-restdocs[Spring REST docs]를 이용해서 깔금한 API문서를 작성할 수 있다.
